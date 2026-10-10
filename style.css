@@ -1,0 +1,109 @@
+/* universal styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  font-family: 'Arial', sans-serif;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #040404;
+  font-size: 16px;
+}
+
+.nav-links a:hover {
+  color: #4805f1;
+  text-decoration: underline;
+}
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #010101;
+  text-decoration: none;
+  font-family: 'Arial', sans-serif;
+  margin-left: 25px;
+}
+
+.dot {
+    color: #4805f1; /* Change this to your desired color */
+}
+
+/* Container to align buttons side-by-side with a gap */
+.cta-container {
+    margin: 24px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.hero-image {
+    margin-top: 30px;
+    text-align: center;
+    border-image-width: auto;
+}
+.hero-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    size: 20px;
+    margin-left: 20px;
+}
+
+
+
+.hero{
+    padding: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.cta-container {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    ;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #010101;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+}
+.eyebrow {
+    font-size: 14px;
+    color: #4805f1;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 600;
+}
+.header-two{
+    font-size: 24px;
+    color: #6307ed;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+}
