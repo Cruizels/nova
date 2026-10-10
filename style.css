@@ -42,10 +42,12 @@
     color: #4805f1; /* Change this to your desired color */
 }
 
-.btn-container {
-    margin-top: 20px;
+/* Container to align buttons side-by-side with a gap */
+.cta-container {
+    margin: 24px;
     display: flex;
-    gap: 20px;
+    gap: 16px;
+    align-items: center;
 }
 
 .hero-image {
@@ -65,8 +67,43 @@
 
 .hero{
     padding: 50px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.cta-container {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    ;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #010101;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+}
+.eyebrow {
+    font-size: 14px;
+    color: #4805f1;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 600;
+}
+.header-two{
+    font-size: 24px;
+    color: #6307ed;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
 }
